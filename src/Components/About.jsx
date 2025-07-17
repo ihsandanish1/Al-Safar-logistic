@@ -1,4 +1,4 @@
-// src/components/about.jsx
+import aboutImg from '../assets/about.jpg';
 const About = () => {
   return (
     <section id="about" className="py-16 bg-gray-100">
@@ -12,7 +12,7 @@ const About = () => {
           <button className="mt-6 px-4 py-2 bg-blue-600 text-white rounded">Learn More</button>
         </div>
         <div>
-          <img src="./src/assets/about.jpg" alt="About" className="rounded shadow-lg" />
+          <img src={aboutImg} alt="About" className="rounded shadow-lg" />
         </div>
       </div>
     </section>

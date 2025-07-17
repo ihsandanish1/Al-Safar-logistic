@@ -1,6 +1,10 @@
+import heroBg from '../assets/hero-bg.jpg';
 const Hero = () => {
     return (
-        <section className="relative bg-cover bg-center h-screen text-white" style={{ backgroundImage: "url('./src/assets/hero-bg.jpg')" }}>
+        <section
+            className="relative bg-cover bg-center h-screen text-white"
+            style={{ backgroundImage: `url(${heroBg})` }}
+        >
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
             <div className="relative z-10 flex flex-col justify-center h-full px-6 max-w-6xl mx-auto">
                 <h1 className="text-4xl md:text-5xl font-bold mb-6 max-w-xl">Reliable Global Logistics Powered from the UAE</h1>
