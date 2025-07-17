@@ -1,6 +1,6 @@
 import client1 from '../assets/Client1.jpg';
 import client2 from '../assets/Client2.jpg';
-import star from '../assets/Star 1.svg';
+import star from '../assets/Star1.svg';
 
 const Clients = () => {
   return (
