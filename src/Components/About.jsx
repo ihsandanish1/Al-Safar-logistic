@@ -1,4 +1,4 @@
-import aboutImg from '../assets/about.jpg';
+import aboutImg from '../assets/About.jpg';
 const About = () => {
   return (
     <section id="about" className="py-16 bg-gray-100">
